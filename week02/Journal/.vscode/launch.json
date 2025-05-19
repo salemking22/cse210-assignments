@@ -1,0 +1,70 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/Debug/net8.0/<project-name>.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "C#: <project-name> Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/<relative-path-to-project-folder>/<project-name>.csproj"
+        },
+        {
+            "name": "Sandbox Project",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-sandbox-Sandbox",
+            "program": "${workspaceFolder}/sandbox/Sandbox/bin/Debug/net8.0/Sandbox.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/Sandbox",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Week 01: C# Exercises",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week01",
+            "program": "${workspaceFolder}/week01/<exercise-folder>/bin/Debug/net8.0/<exercise-name>.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week01/<exercise-folder>",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Week 02: Journal",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week02-Journal",
+            "program": "${workspaceFolder}/week02/Journal/bin/Debug/net8.0/Journal.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week02/Journal",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Week 03: Fractions",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week03-Fractions",
+            "program": "${workspaceFolder}/week03/Fractions/bin/Debug/net8.0/Fractions.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week03/Fractions",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        }
+    ]
+}
