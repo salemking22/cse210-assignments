@@ -1,3 +1,4 @@
+#Exceeded requirements by implementing JSON storage for structured data management instead of plain text. Introduced mood tracking,, allowing users to associate emotions with their journal entries for personalization. Additionally, the search functionality enables keyword-based retrieval, improving accessibility and usability.
 using System;
 using System.Collections.Generic;
 
