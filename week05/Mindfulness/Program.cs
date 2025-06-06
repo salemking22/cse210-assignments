@@ -1,4 +1,4 @@
-#To exceed the requirements i enhanced the user experience by adding a Bonus Gratitude Activity, session tracking, and a summary report to help users reflect on their engagement. Improved animations like spinners and countdown timers to make interactions smoother, while inheritance and encapsulation keep the code clean and maintainable. These thoughtful additions showcase strong object-oriented programming principles and create a richer, more engaging experience.
+//To exceed the requirements i enhanced the user experience by adding a Bonus Gratitude Activity, session tracking, and a summary report to help users reflect on their engagement. Improved animations like spinners and countdown timers to make interactions smoother, while inheritance and encapsulation keep the code clean and maintainable. These thoughtful additions showcase strong object-oriented programming principles and create a richer, more engaging experience.
 using System;
 using System.Collections.Generic;
 using System.Linq;
