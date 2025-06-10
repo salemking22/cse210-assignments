@@ -1,0 +1,13 @@
+4600
+SimpleGoal:Run a Marathon,1000,True
+EternalGoal:Read Scriptures,100
+ChecklistGoal:Attend Temple,50,10,4,500
+SimpleGoal:Run a Marathon,1000,False
+EternalGoal:Read Scriptures,100
+ChecklistGoal:Attend Temple,50,10,0,500
+SimpleGoal:Run a Marathon,1000,False
+EternalGoal:Read Scriptures,100
+ChecklistGoal:Attend Temple,50,10,0,500
+SimpleGoal:Run a Marathon,1000,False
+EternalGoal:Read Scriptures,100
+ChecklistGoal:Attend Temple,50,10,0,500
